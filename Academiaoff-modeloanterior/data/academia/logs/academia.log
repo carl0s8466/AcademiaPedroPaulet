@@ -1,0 +1,84 @@
+2024-09-14 16:22:09.806 INFO  [o.h.v.i.u.Version] HV000001: Hibernate Validator 8.0.1.Final
+2024-09-14 16:22:09.830 INFO  [c.a.a.AcademiaApplication] Starting AcademiaApplication using Java 17.0.12 with PID 22188 (T:\academiaPedro\academia\target\classes started by user in T:\academiaPedro\academia)
+2024-09-14 16:22:09.831 INFO  [c.a.a.AcademiaApplication] No active profile set, falling back to 1 default profile: "default"
+2024-09-14 16:22:10.366 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 16:22:10.453 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 82 ms. Found 26 JPA repository interfaces.
+2024-09-14 16:22:10.802 INFO  [o.s.b.w.e.t.TomcatWebServer] Tomcat initialized with port 8080 (http)
+2024-09-14 16:22:10.810 INFO  [o.a.c.h.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-14 16:22:10.813 INFO  [o.a.c.c.StandardService] Starting service [Tomcat]
+2024-09-14 16:22:10.813 INFO  [o.a.c.c.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-14 16:22:10.859 INFO  [o.a.c.c.C.[.[.[/]] Initializing Spring embedded WebApplicationContext
+2024-09-14 16:22:10.859 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1005 ms
+2024-09-14 16:22:10.986 INFO  [o.h.j.i.u.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 16:22:11.030 INFO  [o.h.Version] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-14 16:22:11.056 INFO  [o.h.c.i.RegionFactoryInitiator] HHH000026: Second-level cache disabled
+2024-09-14 16:22:11.239 INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-14 16:22:11.260 INFO  [c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2024-09-14 16:22:11.461 INFO  [c.z.h.p.HikariPool] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6159fb3c
+2024-09-14 16:22:11.461 INFO  [c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2024-09-14 16:22:11.494 WARN  [o.h.o.deprecation] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-14 16:22:11.494 WARN  [o.h.o.deprecation] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-14 16:22:12.313 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-14 16:22:12.519 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:22:12.700 WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-14 16:22:13.336 WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [T:\academiaPedro\academia\target\classes\data.sql]: INSERT INTO `academia_cargo` (`id`, `nombre_cargo`) VALUES (1, 'Directo'), (2, 'Administrador'), (3, 'Secretario'), (4, 'Docente')
+2024-09-14 16:22:13.338 INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:22:13.339 INFO  [c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2024-09-14 16:22:13.344 INFO  [c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2024-09-14 16:22:13.346 INFO  [o.a.c.c.StandardService] Stopping service [Tomcat]
+2024-09-14 16:22:13.356 INFO  [o.s.b.a.l.ConditionEvaluationReportLogger] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-14 16:22:13.366 ERROR [o.s.b.SpringApplication] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [T:\academiaPedro\academia\target\classes\data.sql]: INSERT INTO `academia_cargo` (`id`, `nombre_cargo`) VALUES (1, 'Directo'), (2, 'Administrador'), (3, 'Secretario'), (4, 'Docente')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.12.jar:6.1.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.3.jar:3.3.3]
+	at com.academiaspedropaulet.academia.AcademiaApplication.main(AcademiaApplication.java:10) ~[classes/:?]
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of file [T:\academiaPedro\academia\target\classes\data.sql]: INSERT INTO `academia_cargo` (`id`, `nombre_cargo`) VALUES (1, 'Directo'), (2, 'Administrador'), (3, 'Secretario'), (4, 'Docente')
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282) ~[spring-jdbc-6.1.12.jar:6.1.12]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-6.1.12.jar:6.1.12]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54) ~[spring-jdbc-6.1.12.jar:6.1.12]
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 18 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'academia_cargo.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261) ~[spring-jdbc-6.1.12.jar:6.1.12]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-6.1.12.jar:6.1.12]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54) ~[spring-jdbc-6.1.12.jar:6.1.12]
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66) ~[spring-boot-3.3.3.jar:3.3.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.12.jar:6.1.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.12.jar:6.1.12]
+	... 18 more

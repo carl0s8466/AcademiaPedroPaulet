@@ -1,0 +1,113 @@
+<mat-dialog-content>
+    <mat-toolbar><span>Formulario</span></mat-toolbar>
+  
+    <div class="example-container">
+      <form [formGroup]="form"  class="example-container" #MatriculaForm="ngForm">
+
+
+        <mat-form-field>
+          <input matInput placeholder="ieEstudio" formControlName="ieEstudio">
+        </mat-form-field>
+        
+        <mat-form-field>
+          <input matInput placeholder="escuelaPostula" formControlName="escuelaPostula">
+        </mat-form-field>
+
+        <mat-form-field>
+         <input matInput placeholder="antePatoPsico" formControlName="antePatoPsico">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="antePoliJudi" formControlName="antePoliJudi">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="declaracionJurada" formControlName="declaracionJurada">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="familiarMilitarPolicial" formControlName="familiarMilitarPolicial">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput type="date" placeholder="fechaIncorporacion" formControlName="fechaIncorporacion">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="lugarNatural" formControlName="lugarNatural">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="natacion" formControlName="natacion">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="otros" formControlName="otros">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="peso" formControlName="peso">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input matInput placeholder="talla" formControlName="talla">
+        </mat-form-field>
+       
+        
+  
+        <mat-form-field>
+          <mat-label>Estudiante</mat-label>
+          <mat-select formControlName="estudiante">
+            <mat-option *ngFor="let estudiante of estudiantes" [value]="estudiante.idEstudiante">{{ estudiante.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Apoderado</mat-label>
+          <mat-select formControlName="apoderado">
+            <mat-option *ngFor="let apoderado of apoderados" [value]="apoderado.idApoderado">{{ apoderado.nombrecompleto }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Medio</mat-label>
+            <mat-select formControlName="medio">
+              <mat-option *ngFor="let medio of medios" [value]="medio.idMedio">{{ medio.nombreMedio }}
+              </mat-option>
+            </mat-select>
+        </mat-form-field>
+    
+          <mat-form-field>
+            <mat-label>Plan</mat-label>
+            <mat-select formControlName="plan">
+              <mat-option *ngFor="let plan of planes" [value]="plan.idPlan">{{ plan.nombrePlan }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Institucion</mat-label>
+            <mat-select formControlName="institucion">
+              <mat-option *ngFor="let institucion of instituciones" [value]="institucion.idInstitucion">{{ institucion.nombreInstitucion }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    
+          <mat-form-field>
+            <mat-label>Grupo</mat-label>
+            <mat-select formControlName="grupo">
+              <mat-option *ngFor="let grupo of grupos" [value]="grupo.idGrupo">{{ grupo.nombre }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+
+        <br/>
+        <button mat-button (click)="operate()" [disabled]="form.invalid">Guardar</button>
+        <button mat-button color="accent" (click)="close()">Cancelar</button>
+      </form>
+    </div>
+  </mat-dialog-content>
+  

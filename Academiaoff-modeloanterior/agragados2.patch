@@ -1,0 +1,2055 @@
+Subject: [PATCH] agragados2
+---
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/ApoderadoController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/ApoderadoController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/ApoderadoController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/ApoderadoController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class ApoderadoController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/AsistenciaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/AsistenciaController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/AsistenciaController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/AsistenciaController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class AsistenciaController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/CargaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/CargaController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/CargaController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/CargaController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class CargaController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/CompetenciaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/CompetenciaController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/CompetenciaController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/CompetenciaController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class CompetenciaController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/ComunicadoController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/ComunicadoController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/ComunicadoController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/ComunicadoController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class ComunicadoController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/CursoController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/CursoController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/CursoController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/CursoController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class CursoController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/EstadotenciaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/EstadotenciaController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/EstadotenciaController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/EstadotenciaController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class EstadotenciaController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/EstudianteController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/EstudianteController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/EstudianteController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/EstudianteController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class EstudianteController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/GrupoController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/GrupoController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/GrupoController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/GrupoController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class GrupoController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/InsidenciaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/InsidenciaController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/InsidenciaController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/InsidenciaController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class InsidenciaController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/InstitucionController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/InstitucionController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/InstitucionController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/InstitucionController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class InstitucionController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/LogroController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/LogroController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/LogroController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/LogroController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class LogroController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/MatriculaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/MatriculaController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/MatriculaController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/MatriculaController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class MatriculaController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/MedioController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/MedioController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/MedioController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/MedioController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class MedioController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/NivelController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/NivelController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/NivelController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/NivelController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class NivelController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/NotaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/NotaController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/NotaController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/NotaController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class NotaController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/PeriodoController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/PeriodoController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/PeriodoController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/PeriodoController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class PeriodoController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/PlanController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/PlanController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/PlanController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/PlanController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class PlanController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/SeccionController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/SeccionController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/SeccionController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/SeccionController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class SeccionController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/SedeController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/SedeController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/SedeController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/SedeController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class SedeController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/controlador/TrabajadorController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/controlador/TrabajadorController.java b/src/main/java/com/academiaspedropaulet/academia/controlador/TrabajadorController.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/controlador/TrabajadorController.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.controlador;
++
++public class TrabajadorController {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/ApoderadoDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/ApoderadoDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/ApoderadoDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/ApoderadoDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class ApoderadoDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/AsistenciaDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/AsistenciaDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/AsistenciaDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/AsistenciaDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class AsistenciaDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/CargaDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/CargaDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/CargaDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/CargaDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class CargaDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/CompetenciaDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/CompetenciaDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/CompetenciaDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/CompetenciaDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class CompetenciaDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/ComunicadoDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/ComunicadoDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/ComunicadoDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/ComunicadoDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class ComunicadoDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/CursoDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/CursoDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/CursoDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/CursoDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class CursoDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/EstadotenciaDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/EstadotenciaDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/EstadotenciaDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/EstadotenciaDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class EstadotenciaDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/EstudianteDTO.java
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/EstudianteDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/EstudianteDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/EstudianteDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class EstudianteDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/GrupoDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/GrupoDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/GrupoDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/GrupoDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class GrupoDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/InsidenciaDTO.java
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/InsidenciaDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/InsidenciaDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/InsidenciaDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class InsidenciaDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/InstitucionDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/InstitucionDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/InstitucionDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/InstitucionDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class InstitucionDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/LogroDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/LogroDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/LogroDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/LogroDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class LogroDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/MatriculaDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/MatriculaDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/MatriculaDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/MatriculaDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class MatriculaDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/MedioDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/MedioDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/MedioDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/MedioDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class MedioDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/NivelDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/NivelDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/NivelDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/NivelDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class NivelDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/NotaDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/NotaDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/NotaDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/NotaDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class NotaDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/PeriodoDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/PeriodoDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/PeriodoDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/PeriodoDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class PeriodoDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/PlanDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/PlanDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/PlanDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/PlanDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class PlanDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/SeccionDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/SeccionDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/SeccionDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/SeccionDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class SeccionDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/SedeDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/SedeDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/SedeDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/SedeDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class SedeDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/dtos/TrabajadorDTO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/dtos/TrabajadorDTO.java b/src/main/java/com/academiaspedropaulet/academia/dtos/TrabajadorDTO.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/dtos/TrabajadorDTO.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.dtos;
++
++public class TrabajadorDTO {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/ApoderadoMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/ApoderadoMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/ApoderadoMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/ApoderadoMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface ApoderadoMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/AsistenciaMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/AsistenciaMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/AsistenciaMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/AsistenciaMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface AsistenciaMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/CargaMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/CargaMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/CargaMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/CargaMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface CargaMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/CompetenciaMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/CompetenciaMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/CompetenciaMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/CompetenciaMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface CompetenciaMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/ComunicadoMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/ComunicadoMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/ComunicadoMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/ComunicadoMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface ComunicadoMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/CursoMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/CursoMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/CursoMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/CursoMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface CursoMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/EstadotenciaMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/EstadotenciaMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/EstadotenciaMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/EstadotenciaMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface EstadotenciaMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/EstudianteMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/EstudianteMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/EstudianteMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/EstudianteMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface EstudianteMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/GrupoMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/GrupoMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/GrupoMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/GrupoMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface GrupoMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/InsidenciaMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/InsidenciaMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/InsidenciaMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/InsidenciaMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface InsidenciaMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/InstitucionMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/InstitucionMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/InstitucionMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/InstitucionMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface InstitucionMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/LogroMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/LogroMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/LogroMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/LogroMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface LogroMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/MatriculaMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/MatriculaMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/MatriculaMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/MatriculaMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface MatriculaMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/MedioMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/MedioMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/MedioMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/MedioMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface MedioMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/NivelMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/NivelMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/NivelMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/NivelMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface NivelMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/NotaMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/NotaMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/NotaMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/NotaMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface NotaMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/PeriodoMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/PeriodoMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/PeriodoMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/PeriodoMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface PeriodoMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/PlanMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/PlanMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/PlanMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/PlanMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface PlanMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/SeccionMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/SeccionMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/SeccionMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/SeccionMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface SeccionMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/SedeMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/SedeMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/SedeMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/SedeMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface SedeMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/mappers/TrabajadorMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/mappers/TrabajadorMapper.java b/src/main/java/com/academiaspedropaulet/academia/mappers/TrabajadorMapper.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/mappers/TrabajadorMapper.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.mappers;
++
++public interface TrabajadorMapper {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Apoderado.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Apoderado.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Apoderado.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Apoderado.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Apoderado {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Asistencia.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Asistencia.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Asistencia.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Asistencia.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Asistencia {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Carga.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Carga.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Carga.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Carga.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Carga {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Competencia.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Competencia.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Competencia.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Competencia.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Competencia {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Comunicado.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Comunicado.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Comunicado.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Comunicado.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Comunicado {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Curso.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Curso.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Curso.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Curso.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Curso {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Estadotencia.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Estadotencia.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Estadotencia.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Estadotencia.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Estadotencia {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Estudiante.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Estudiante.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Estudiante.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Estudiante.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Estudiante {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Grupo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Grupo.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Grupo.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Grupo.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Grupo {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Insidencia.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Insidencia.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Insidencia.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Insidencia.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Insidencia {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Institucion.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Institucion.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Institucion.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Institucion.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Institucion {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Logro.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Logro.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Logro.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Logro.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Logro {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Matricula.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Matricula.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Matricula.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Matricula.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Matricula {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Medio.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Medio.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Medio.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Medio.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Medio {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Nivel.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Nivel.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Nivel.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Nivel.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Nivel {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Nota.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Nota.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Nota.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Nota.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Nota {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Periodo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Periodo.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Periodo.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Periodo.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Periodo {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Plan.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Plan.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Plan.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Plan.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Plan {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Seccion.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Seccion.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Seccion.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Seccion.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Seccion {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Sede.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Sede.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Sede.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Sede.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Sede {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/modelo/Trabajador.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/modelo/Trabajador.java b/src/main/java/com/academiaspedropaulet/academia/modelo/Trabajador.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/modelo/Trabajador.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.modelo;
++
++public class Trabajador {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/ApoderadoRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/ApoderadoRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/ApoderadoRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/ApoderadoRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface ApoderadoRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/AsistenciaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/AsistenciaRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/AsistenciaRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/AsistenciaRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface AsistenciaRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/CargaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/CargaRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/CargaRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/CargaRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface CargaRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/CompetenciaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/CompetenciaRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/CompetenciaRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/CompetenciaRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface CompetenciaRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/ComunicadoRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/ComunicadoRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/ComunicadoRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/ComunicadoRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface ComunicadoRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/CursoRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/CursoRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/CursoRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/CursoRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface CursoRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/EstadotenciaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/EstadotenciaRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/EstadotenciaRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/EstadotenciaRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface EstadotenciaRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/EstudianteRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/EstudianteRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/EstudianteRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/EstudianteRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface EstudianteRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/GrupoRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/GrupoRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/GrupoRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/GrupoRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface GrupoRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/InsidenciaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/InsidenciaRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/InsidenciaRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/InsidenciaRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface InsidenciaRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/InstitucionRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/InstitucionRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/InstitucionRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/InstitucionRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface InstitucionRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/LogroRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/LogroRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/LogroRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/LogroRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface LogroRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/MatriculaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/MatriculaRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/MatriculaRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/MatriculaRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface MatriculaRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/MedioRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/MedioRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/MedioRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/MedioRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface MedioRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/NivelRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/NivelRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/NivelRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/NivelRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface NivelRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/NotaRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/NotaRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/NotaRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/NotaRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface NotaRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/PeriodoRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/PeriodoRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/PeriodoRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/PeriodoRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface PeriodoRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/PlanRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/PlanRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/PlanRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/PlanRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface PlanRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/SeccionRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/SeccionRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/SeccionRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/SeccionRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface SeccionRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/SedeRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/SedeRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/SedeRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/SedeRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface SedeRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/repositorio/TrabajadorRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/repositorio/TrabajadorRepository.java b/src/main/java/com/academiaspedropaulet/academia/repositorio/TrabajadorRepository.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/repositorio/TrabajadorRepository.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.repositorio;
++
++public interface TrabajadorRepository {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/ApoderadoService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/ApoderadoService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/ApoderadoService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/ApoderadoService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface ApoderadoService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/AsistenciaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/AsistenciaService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/AsistenciaService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/AsistenciaService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface AsistenciaService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/CargaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/CargaService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/CargaService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/CargaService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface CargaService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/CompetenciaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/CompetenciaService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/CompetenciaService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/CompetenciaService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface CompetenciaService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/ComunicadoService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/ComunicadoService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/ComunicadoService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/ComunicadoService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface ComunicadoService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/CursoService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/CursoService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/CursoService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/CursoService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface CursoService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/EstadotenciaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/EstadotenciaService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/EstadotenciaService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/EstadotenciaService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface EstadotenciaService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/EstudianteService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/EstudianteService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/EstudianteService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/EstudianteService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,5 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface EstudianteService
++{
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/GrupoService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/GrupoService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/GrupoService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/GrupoService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface GrupoService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/InsidenciaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/InsidenciaService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/InsidenciaService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/InsidenciaService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface InsidenciaService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/InstitucionService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/InstitucionService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/InstitucionService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/InstitucionService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface InstitucionService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/LogroService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/LogroService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/LogroService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/LogroService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface LogroService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/MatriculaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/MatriculaService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/MatriculaService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/MatriculaService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface MatriculaService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/MedioService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/MedioService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/MedioService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/MedioService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface MedioService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/NivelService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/NivelService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/NivelService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/NivelService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface NivelService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/NotaService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/NotaService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/NotaService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/NotaService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface NotaService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/PeriodoService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/PeriodoService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/PeriodoService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/PeriodoService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface PeriodoService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/PlanService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/PlanService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/PlanService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/PlanService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface PlanService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/SeccionService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/SeccionService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/SeccionService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/SeccionService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface SeccionService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/SedeService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/SedeService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/SedeService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/SedeService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface SedeService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/TrabajadorService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/TrabajadorService.java b/src/main/java/com/academiaspedropaulet/academia/servicio/TrabajadorService.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/TrabajadorService.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio;
++
++public interface TrabajadorService {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/ApoderadoServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/ApoderadoServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/ApoderadoServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/ApoderadoServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class ApoderadoServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/AsistenciaServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/AsistenciaServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/AsistenciaServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/AsistenciaServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class AsistenciaServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/CargaServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CargaServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CargaServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CargaServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class CargaServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/CompetenciaServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CompetenciaServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CompetenciaServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CompetenciaServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class CompetenciaServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/ComunicadoServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/ComunicadoServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/ComunicadoServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/ComunicadoServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class ComunicadoServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/CursoServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CursoServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CursoServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/CursoServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class CursoServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstadotenciaServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstadotenciaServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstadotenciaServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstadotenciaServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class EstadotenciaServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstudianteServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstudianteServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstudianteServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/EstudianteServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class EstudianteServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/GrupoServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/GrupoServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/GrupoServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/GrupoServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class GrupoServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/InsidenciaServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/InsidenciaServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/InsidenciaServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/InsidenciaServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class InsidenciaServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/InstitucionServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/InstitucionServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/InstitucionServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/InstitucionServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class InstitucionServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/LogroServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/LogroServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/LogroServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/LogroServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class LogroServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/MatriculaServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/MatriculaServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/MatriculaServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/MatriculaServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class MatriculaServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/MedioServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/MedioServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/MedioServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/MedioServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class MedioServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/NivelServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/NivelServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/NivelServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/NivelServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class NivelServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/NotaServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/NotaServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/NotaServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/NotaServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class NotaServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/PeriodoServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/PeriodoServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/PeriodoServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/PeriodoServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class PeriodoServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/PlanServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/PlanServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/PlanServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/PlanServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class PlanServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/SeccionServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/SeccionServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/SeccionServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/SeccionServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class SeccionServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/SedeServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/SedeServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/SedeServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/SedeServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class SedeServiceImp {
++}
+Index: src/main/java/com/academiaspedropaulet/academia/servicio/impl/TrabajadorServiceImp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/academiaspedropaulet/academia/servicio/impl/TrabajadorServiceImp.java b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/TrabajadorServiceImp.java
+new file mode 100644
+--- /dev/null	(revision 3776edb2f4708100b2338657847c07b724129062)
++++ b/src/main/java/com/academiaspedropaulet/academia/servicio/impl/TrabajadorServiceImp.java	(revision 3776edb2f4708100b2338657847c07b724129062)
+@@ -0,0 +1,4 @@
++package com.academiaspedropaulet.academia.servicio.impl;
++
++public class TrabajadorServiceImp {
++}

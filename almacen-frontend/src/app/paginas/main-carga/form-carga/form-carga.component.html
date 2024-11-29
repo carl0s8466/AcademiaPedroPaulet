@@ -1,0 +1,46 @@
+<mat-dialog-content>
+    <mat-toolbar><span>Formulario</span></mat-toolbar>
+  
+    <div class="example-container">
+      <form [formGroup]="form"  class="example-container" #ExamenMedicoForm="ngForm">
+
+
+        <mat-form-field>
+            <mat-label>Seleccionar Periodo</mat-label>
+            <mat-select formControlName="periodo">
+              <mat-option *ngFor="let periodo of periodos" [value]="periodo.idPeriodo">{{ periodo.nombrePeriodo }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Seleccionar Trabajador</mat-label>
+            <mat-select formControlName="trabajador">
+              <mat-option *ngFor="let trabajador of trabajadores" [value]="trabajador.idTrabajador">{{ trabajador.nombreCompleto }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+  
+        <mat-form-field>
+          <mat-label>Seleccionar Curso</mat-label>
+          <mat-select formControlName="curso">
+            <mat-option *ngFor="let curso of cursos" [value]="curso.idCurso">{{ curso.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Seleccionar Seccion</mat-label>
+          <mat-select formControlName="seccion">
+            <mat-option *ngFor="let seccion of secciones" [value]="seccion.idSeccion">{{ seccion.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <br/>
+        <button mat-button (click)="operate()" [disabled]="form.invalid">Guardar</button>
+        <button mat-button color="accent" (click)="close()">Cancelar</button>
+      </form>
+    </div>
+  </mat-dialog-content>
+  

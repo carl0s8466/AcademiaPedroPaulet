@@ -1,0 +1,42 @@
+<mat-dialog-content>
+    <mat-toolbar><span>Formulario</span></mat-toolbar>
+  
+    <div class="example-container">
+      <form [formGroup]="form"  class="example-container" #AsistenciaForm="ngForm">
+        <mat-form-field>
+          <input matInput type="date" placeholder="fecha de registro" formControlName="fecharegistro">
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Estado de Asistencia" formControlName="estadotencia">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Periodo</mat-label>
+            <mat-select formControlName="periodo">
+              <mat-option *ngFor="let periodo of periodos" [value]="periodo.idPeriodo">{{ periodo.nombrePeriodo }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Estudiante</mat-label>
+          <mat-select formControlName="estudiante">
+            <mat-option *ngFor="let estudiante of estudiantes" [value]="estudiante.idEstudiante">{{ estudiante.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <mat-label>Curso</mat-label>
+          <mat-select formControlName="Curso">
+            <mat-option *ngFor="let curso of cursos" [value]="curso.idCurso">{{ curso.nombre }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <br/>
+        <button mat-button (click)="operate()" [disabled]="form.invalid">Guardar</button>
+        <button mat-button color="accent" (click)="close()">Cancelar</button>
+      </form>
+    </div>
+  </mat-dialog-content>
+  
